@@ -5,6 +5,7 @@
     --color-tertiary: #6D5FF5;
     --color-btn-text: #FFFFFF;
     --color-hover-yellow: #EBD63D;
+    --font-family: 'Inter', sans-serif;
 }
 
 .btn-primary{
@@ -21,4 +22,3 @@
     font-weight: 500;
     cursor: pointer;
 }
-
