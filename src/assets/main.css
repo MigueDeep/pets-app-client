@@ -1,35 +1,24 @@
-@import "./base.css";
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
+:root {
+    --color-primary: #6246EA;
+    --color-secondary: #A3A8FE;
+    --color-tertiary: #6D5FF5;
+    --color-btn-text: #FFFFFF;
+    --color-hover-yellow: #EBD63D;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+.btn-primary{
+    background-color: var(--color-tertiary);
+    color: var(--color-btn-text);
+    border: none;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.btn-primary:hover{
+    background-color: var(--color-primary);
+    font-weight: 500;
+    cursor: pointer;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-}
