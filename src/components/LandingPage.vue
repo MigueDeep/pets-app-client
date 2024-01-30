@@ -16,8 +16,8 @@
                     </div>
                 </div>
                 <div class="session-control">
-                    <a href="#" class="session-options">Iniciar Sesión</a>
-                    <a href="#" class="session-options">Registrarse</a>
+                    <a href="Login" class="session-options">Iniciar Sesión</a>
+                    <a href="Register" class="session-options">Registrarse</a>
                 </div>
 
             </div>

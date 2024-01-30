@@ -8,6 +8,16 @@ const routes = [
         path: '/',
         name: 'LandingPage',
         component: () => import('../components/LandingPage.vue')
+    },
+    {
+        path: '/Login',
+        name: 'Login',
+        component: () => import('../components/Login.vue')
+    },
+    {
+        path: '/Register',
+        name: 'Register',
+        component: () => import('../components/Register.vue')
     } 
 ]
 
